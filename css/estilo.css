@@ -1,0 +1,151 @@
+/*MARGEM DA PÁGINA*/
+body,html{
+    margin: 0 auto;
+    background: url(../imagens/back.jpg) no-repeat center fixed;
+}
+
+/*IMAGEM DO MENU*/
+img.capa{
+    width: 1000px;
+    height: 300px;
+	top: 50%;
+	left: 50%;
+	margin: 0 0 0 160px;
+}
+
+/*MENU PRINCIPAL*/
+nav.menu ul{
+    list-style: none;
+    top: 50%;
+	left: 50%;
+	margin: 20px 0 0 200px;
+}
+
+/*MENU PRINCIPAL - ITENS*/
+nav.menu li{
+    -moz-box-shadow:0 3px 10px 0 black;
+    -webkit-box-shadow:0 3px 10px 0 black;
+    text-shadow:0px 0px 5px #fff;
+    display: inline-block;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    border: 2px solid #dddddd; 
+    float:left; 
+    font-weight: bold;
+    background: #dddddd;
+    padding: 3px;
+    margin: 10px;
+    margin-top: -5px
+}
+
+/*FORMATANDO LINKS DO MENU*/
+nav.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 2px 2px;
+    display: block;
+}
+
+/*FORMATANDO LINKS EM HOVER DO MENU*/
+nav.menu a:hover{
+    background: #dddddd;
+    color: #fff;
+    -moz-box-shadow:0 3px 10px 0 black;
+    text-shadow:0px 0px 5px black;
+}
+
+/*FORMATAÇÃO DE FONTE h1*/
+h1.f{
+    color: white;
+    font-family: Arial;
+    font-weight: normal;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    margin-left: 160px;
+}
+
+/*FORMATAÇÃO DE FONTE h2*/
+h2.f{
+    color: white;
+    font-family: Calibri;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-left: 160px;
+}
+
+/*FORMATAÇÃO DE FONTE p*/
+p.f{
+    color: white;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-left: 160px;
+}
+
+/*FORMATAÇÃO DE FONTE p*/
+p.a{
+    color: red;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: -15px;
+    margin-left: 185px;
+}
+
+/*AJUSTANDO MARGENS DO 1º VIDEO*/
+video.a{
+	margin: -10px 0 0 160px;
+}
+
+/*AJUSTANDO MARGENS DO 2º VIDEO*/
+video.b{
+	margin: -10px 0 0 70px;
+}
+
+/*LEGENDA DA IMAGEM*/
+figcaption.legenda{
+    color: white;
+    font-family: cursive;
+    font-weight: normal;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-left: 190px;
+}
+
+/*AJUSTANDO MARGENS DA IMAGEM*/
+img.podio{
+    width: 400px;
+    height: 150px;
+	top: 50%;
+	left: 50%;
+	margin: 50px 0 0 120px;
+}
+
+/*ALINHANDO MARGENS RODAPÉ*/
+img.rodape{
+    width: 1350px;
+    height: 350px;
+	top: 50%;
+	left: 50%;
+	margin: 0 0 -20px 0;
+}
+
+/*MARGENS SA SUB-PÁGINA CALENDARIO*/
+img.calendario{
+    width: 1000px;
+    height: 500px;
+	top: 50%;
+	left: 50%;
+	margin: 0 50px 50px 160px;
+}
+
+/*MARGENS SA SUB-PÁGINA CLASSIFICAÇÃO*/
+img.classificacao{
+    width: 1000px;
+    height: 500px;
+	top: 50%;
+	left: 50%;
+	margin: 0 50px 50px 160px;
+}
